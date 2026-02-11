@@ -100,7 +100,7 @@ async function queryAPI(query, endpoints, conText, timeout = 45000) {
   
   for (const endpoint of endpoints) {
     try {
-      const apiUrl = `${GiftedTechApi}/api/download/${endpoint}?apikey=${GiftedApiKey}&url=${encodeURIComponent(query)}&stream=true`;
+      const apiUrl = `${GiftedTechApi}/api/download/${endpoint}?apikey=${GiftedApiKey}&url=${encodeURIComponent(query)}`;
       
       const res = await axios.get(apiUrl, { timeout });
       
