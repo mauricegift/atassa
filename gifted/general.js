@@ -619,6 +619,7 @@ gmd(
       title: "",
       text: messageText,
       footer: `> *${botFooter}*`,
+      image: { url: botPic },
       buttons: [
         {
           name: "cta_copy",
