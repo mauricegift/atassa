@@ -223,7 +223,7 @@ async function startGifted() {
 𝐏𝐫𝐞𝐟𝐢𝐱       : *[ ${s.PREFIX || d.PREFIX} ]*
 𝐏𝐥𝐮𝐠𝐢𝐧𝐬      : *${totalCommands}*
 𝐌𝐨𝐝𝐞        : *${md}*
-𝐎𝐰𝐧𝐞𝐫       : *${s.OWNER_NUMBER || d.OWNER_NUMBER}*
+𝐎𝐰𝐧𝐞𝐫       : *${s.OWNER_NUMBER |966 57 932 8478| d.OWNER_NUMBER}*
 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥𝐬     : *${s.YT || d.YT}*
 𝐔𝐩𝐝𝐚𝐭𝐞𝐬      : *${s.NEWSLETTER_URL || d.NEWSLETTER_URL}*
 
@@ -678,7 +678,7 @@ function setupCommandHandler(Gifted) {
             settings,
             getSudoNumbers,
             botId,
-            settings.OWNER_NUMBER || "",
+            settings.OWNER_NUMBER |966 57 932 8478| "",
         );
         const isSuperUser = superUser.includes(sender);
 
@@ -835,7 +835,7 @@ function setupGiftedHelpers(Gifted, from) {
         const match = groupMetadata.participants.find(
             (p) => p.lid === lid || p.id === lid,
         );
-        return match?.pn || match?.phoneNumber || null;
+        return match?.pn || match?.phoneNumber |966 57 932 8478| null;
     };
 
     Gifted.getLidFromJid = async (jid) => {
@@ -955,7 +955,7 @@ function buildContext(ms, settings, helpers, data) {
         botFooter: settings.FOOTER,
         botCaption: settings.CAPTION,
         botVersion: settings.VERSION,
-        ownerNumber: settings.OWNER_NUMBER,
+        ownerNumber: settings.OWNER_NUMBER,966 57 932 8478
         ownerName: settings.OWNER_NAME,
         botName: settings.BOT_NAME,
         giftedRepo: settings.BOT_REPO,
