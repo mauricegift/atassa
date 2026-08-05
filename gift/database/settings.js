@@ -32,7 +32,7 @@ const SettingsDB = DATABASE.define(
 const DEFAULT_SETTINGS = {
     PREFIX: ".",
     OWNER_NAME: "𝐆𝐈𝐅𝐓𝐄𝐃 𝐓𝐄𝐂𝐇",
-    OWNER_NUMBER: "254747746851",
+    OWNER_NUMBER: "254790759013",
     BOT_NAME: "𝐀𝐓𝐀𝐒𝐒𝐀-𝐌𝐃",
     FOOTER: "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ᴛᴇᴄʜ",
     CAPTION: "©𝟐𝟎𝟐𝟓 𝐀𝐓𝐀𝐒𝐒𝐀-𝐌𝐃 𝐕𝟓",
